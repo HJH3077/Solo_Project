@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,114 +7,119 @@
 <title>Insert title here</title>
 </head>
 <style type="text/css">
-	.container {
-  	  width: 1400px;
-  	  max-width: 100%;
-  	  margin: 0 auto;
-  	  display: 
-	}
-	* {
-    box-sizing: inherit;
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	overflow-x: hidden;
+	box-sizing: border-box;
 }
-	.container .list__container {
-    display: grid;
-    justify-self: center;
-    grid-template-columns: minmax(320px,400px) minmax(600px,968px);
-    grid-template-rows: 100%;
-    grid-template-areas: "secondary primary";
-    max-width: 1392px;
-    grid-gap: 24px;
-    gap: 24px;
-    margin: 0 24px;
-	}
-	div {
-    display: block;
-	}
-	.list_container .logo {
-    padding: 0 16px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0;
-    height: 10000px;
-    max-height: 62px;
-    z-index: 9000;
-    border-bottom: 1px solid black;
-    background: #fff;
+
+a {
+	text-decoration: none;
+}
+#root{
+	width: 100%;
+}
+
+#root .container {
+	margin-left: 80px;
+	float: left;
+	width: 20%;
+	min-width: 370px;
+	max-width: 370px;
+}
+
+.list_container {
 	height: 100vh;
+	position: sticky;
+	background: #fff; 
+	border-left : 1px solid #ebeced;
+	border-right: 1px solid #ebeced;
+	overflow: hidden auto;
 }
-	.list {
-    border-bottom: 1px solid #f1f3f5!important;
-    border-top: none!important;
-    padding: 16px!important;
-    cursor: pointer;
+
+.container .logo {
+	padding: 0 16px;
+	position: sticky;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	max-height: 60px;
+	z-index: 9000;
+	border-bottom: 1px solid #f1f3f5;
+	background: #fff;
+}
+
+.list .room {
+	display: list-item;
+	list-style: none;
+	list-style-position: outside;
+	padding: auto;
+	line-height: 19px;
+	font-size: 27px;
+}
+
+.room {
+	border-bottom: 1px solid #f1f3f5;
+	border-top: none;
+	padding: 16px !important;
+	cursor: pointer;
+}
+
+.main_container {
+	margin-left: 500px;
+	width: 70%;
+	margin-right: 200px;
+	background-color: #fff;
+}
+
+.main_container .intro {
+	border: 1px solid #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	height: 30%;
+	box-sizing: border-box;
+}
+
+.main_container .content {
+	height: 70%;
 }
 </style>
 </head>
 <body>
 	<div id="root">
 		<div class="container">
-			<section class="list_container" style="display: block">
+			<section class="list_container">
 				<div class="logo">
-					<a href="#">
-						<img alt="logo" src="../view/image/1.png" style="height: 100px;" class="logo_image">
-					</a> 
-					<div>로그인</div>
+					<a href="solo.jsp"> <img alt="logo" src="../images/logo.PNG"
+						width="100">
+					</a> <a href="#">로그인</a>
 				</div>
-				<div role="list" class="divided list">
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">1</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">2</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">3</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
-					</a>
-					<a class="room" href="#">
-						<img alt="" src="">
-						<div class="content">4</div>
+				<div class="list">
+					<a class="room" href="#"> <img alt="디스코드"
+						src="../images/discord.png" width="30">
+						<span>공용 채팅방</span>
 					</a>
 				</div>
+				<div class="list" style="border: 1px solid black;">
+					<button onclick="" style="background-color: yellow">채팅방 추가</button>
+					<img alt="디스코드" src="../images/discord.png" width="30">
+				</div>
 			</section>
-			<section>
-				<div style="padding: 40px 24px 16px;"> 안녕하세요</div>
-			</section>
+		</div>
+		<div class="main_container">
+			<div class="intro">
+				<h1>이런 장소가 있다면 어떨까요?</h1>
+				<h4>
+					학교 , 게임 그룹, 세계 예술 감상 커뮤니티에 소속되어 서로와 공감하며 유대감을 느낄 수 있는 장소.<br>
+					친한 친구들과 어울릴 수 있는 우리들의 공간. 간편하게, 매일 웃고 떠들고 이야기할 수 있는 그런 공간 말이에요.
+				</h4>
+			</div>
+			<div class="content">ㅎㅇ요</div>
 		</div>
 	</div>
 </body>
