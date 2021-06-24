@@ -105,21 +105,13 @@ a {
 						<span>공용 채팅방</span>
 					</a>
 				</div>
-				<div class="list" style="border: 1px solid black;">
-					<button onclick="" style="background-color: yellow">채팅방 추가</button>
-					<img alt="디스코드" src="../images/discord.png" width="30">
+				<div class="list">
+					<a class="room" href="#" style="position: absolute; right:10px;"> 
+					<span>채팅방 추가</span>
+					<img alt="디스코드"	src="../images/discord.png" width="30">
+					</a>
 				</div>
 			</section>
-		</div>
-		<div class="main_container">
-			<div class="intro">
-				<h1>이런 장소가 있다면 어떨까요?</h1>
-				<h4>
-					학교 , 게임 그룹, 세계 예술 감상 커뮤니티에 소속되어 서로와 공감하며 유대감을 느낄 수 있는 장소.<br>
-					친한 친구들과 어울릴 수 있는 우리들의 공간. 간편하게, 매일 웃고 떠들고 이야기할 수 있는 그런 공간 말이에요.
-				</h4>
-			</div>
-			<div class="content">ㅎㅇ요</div>
 		</div>
 	</div>
 </body>

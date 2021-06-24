@@ -7,11 +7,13 @@
 <title>Insert title here</title>
 <style>
 body {
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	overflow-x: hidden;
 	box-sizing: border-box;
-	width: 100%;
 }
+
 #root{
 	border: 1px solid black;
 }
