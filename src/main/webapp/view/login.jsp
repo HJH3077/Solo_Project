@@ -77,10 +77,10 @@ body {
 </script>
 </head>
 <body>
-	<%@ include file="head.jsp"%>
+	<%@ include file="logout_head.jsp"%>
 	<div id="login_container">
 		<h1 id="login_title">
-			<a href="main.jsp">HHtalk</a>
+			<a href="main.jsp">Hiscord</a>
 		</h1>
 		<form method="post">
 			<div id="login">

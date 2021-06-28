@@ -34,13 +34,13 @@ body {
 }
 
 .main_container .main_content {
-	padding-left: 40px;
+	padding-left: 45px;
 	padding-top: 20px;
 }
 </style>
 </head>
 <body>
-	<%@ include file="head.jsp"%>
+	<%@ include file="login_head.jsp"%>
 	<div class="main_container">
 		<div class="main_intro">
 			<h1>이런 장소가 있다면 어떨까요?</h1>
@@ -50,7 +50,7 @@ body {
 			</h4>
 		</div>
 		<div class="main_content">
-			<iframe width="1400" height="600"
+			<iframe width="1200" height="600"
 				src="https://www.youtube.com/embed/1ttLx9MbrCI"
 				title="YouTube video player" frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
