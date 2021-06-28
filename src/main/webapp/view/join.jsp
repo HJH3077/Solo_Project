@@ -6,6 +6,9 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
+*{
+	text-decoration: none;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -21,9 +24,10 @@ body {
  	margin: auto;
  }
  
- #head{
+ #join_head{
  	text-align: center;
- 	font-size: 40px;
+ 	font-size: 50px;
+ 	line-height: 40px;
  }
  
  .join{
@@ -32,18 +36,22 @@ body {
  }
  .join_row{ 
  	background-color: #fff;
- 	border: 1px solid black;
  	width: 800px;
  	margin: auto;
+ 	padding: 20px;
+ 	border-bottom: 1px solid #ebeced;
  }
  
  .join_row h3{
- 	text-align: center;
+ 	width: 400px;
+ 	margin: auto;
+ 	padding: 4px;
  }
  
  .join_row p{
- 	text-align: center;
- 	padding: auto;
+ 	width: 400px;
+ 	margin: auto;
+ 	padding: 3px;
  }
  
  .join_row input{
@@ -51,13 +59,13 @@ body {
  	height: 27px;
  }
  
- #btn{
+ #join_btn{
  	float: right;
- 	margin-right: 45%;
+ 	margin-right: 40%;
  	margin-top: 20px;
  }
  
- #btn input{
+ #join_btn input{
  	width: 270px;
  	height: 40px;
  }
@@ -76,7 +84,7 @@ body {
 <body>
 	<form method="post">
 		<div id="join_container">
-			<h1 id="head">회원 가입</h1>
+			<h1 id="join_head">회원 가입</h1>
 			<div class="join">
 				<div class="join_row">
 					<h3>아이디</h3>
@@ -112,7 +120,7 @@ body {
 						<input type="email" name="email" required>
 					</p>
 				</div>
-				<div id="btn">
+				<div id="join_btn">
 					<input type="submit" value="가입하기" onclick="join_ok()">
 				</div>
 			</div>

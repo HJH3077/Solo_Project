@@ -73,6 +73,11 @@ body {
 	font-size: 20px;
 }
 </style>
+<script type="text/javascript">
+	function chat_add() {
+		
+	}
+</script>
 </head>
 <body>
 	<div id="head">
@@ -80,7 +85,7 @@ body {
 			<div class="logo">
 				<a href="solo.jsp"> <img alt="logo" src="../images/logo.PNG"
 					width="100">
-				</a> <a href="#">로그인</a>
+				</a> <a href="login.jsp">로그인</a>
 			</div>
 			<div class="list">
 				<div class="room">
@@ -93,7 +98,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -101,7 +106,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -109,7 +114,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -117,7 +122,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -125,7 +130,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -133,7 +138,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -141,7 +146,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -149,7 +154,7 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
@@ -157,38 +162,14 @@ body {
 			<div class="list">
 				<div class="room">
 					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
-							채팅방</span>
-					</a>
-				</div>
-			</div>
-			<div class="list">
-				<div class="room">
-					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
-							채팅방</span>
-					</a>
-				</div>
-			</div>
-			<div class="list">
-				<div class="room">
-					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
-							채팅방</span>
-					</a>
-				</div>
-			</div>
-			<div class="list">
-				<div class="room">
-					<a href="#"> <img alt="디스코드" src="../images/discord.png"
-						style="width: 40px;"> <span style="margin-left: 10px;">공용
+						style="width: 40px;"> <span style="margin-left: 10px;">
 							채팅방</span>
 					</a>
 				</div>
 			</div>
 			<div class="chat">
 				<div class="room_add">
-					<a href="#"> <span>채팅방 추가</span> <img alt="추가"
+					<a href="#" onclick="chat_add()"> <span>채팅방 추가</span> <img alt="추가"
 						src="../images/plus.png" style="width: 30px; height: 20px;">
 					</a>
 				</div>
