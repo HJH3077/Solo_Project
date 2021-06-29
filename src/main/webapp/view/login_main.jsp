@@ -14,7 +14,6 @@ body {
 	overflow-x: hidden;
 	box-sizing: border-box;
 }
-
 .main_container {
 	margin-left: 50px;
 	width: 1500px;
@@ -24,7 +23,6 @@ body {
 	border-left: 1px solid #ebeced;
 	border-right: 1px solid #ebeced;
 }
-
 .main_container .main_intro {
 	text-align: center;
 	font-size: 18px;
@@ -32,10 +30,15 @@ body {
 	padding: auto;
 	border-bottom: 1px solid #fafafa;
 }
-
 .main_container .main_content {
 	padding-left: 45px;
 	padding-top: 20px;
+}
+
+iframe {
+	width: 90%;
+	height: 100%;
+	min-height: 550px;
 }
 </style>
 </head>
@@ -50,7 +53,7 @@ body {
 			</h4>
 		</div>
 		<div class="main_content">
-			<iframe width="1200" height="600"
+			<iframe
 				src="https://www.youtube.com/embed/1ttLx9MbrCI"
 				title="YouTube video player" frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

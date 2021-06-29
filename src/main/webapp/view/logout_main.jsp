@@ -37,6 +37,12 @@ body {
 	padding-left: 45px;
 	padding-top: 20px;
 }
+
+iframe{
+	width: 90%;
+	height: 100%;
+	min-height: 550px;
+}
 </style>
 </head>
 <body>
@@ -50,7 +56,7 @@ body {
 			</h4>
 		</div>
 		<div class="main_content">
-			<iframe width="1200" height="600"
+			<iframe
 				src="https://www.youtube.com/embed/1ttLx9MbrCI"
 				title="YouTube video player" frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
