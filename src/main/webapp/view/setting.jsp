@@ -87,19 +87,19 @@ body {
 </style>
 <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">
-	$(":radio").change(function() {
-		if($(this).is(":checked")){
+	$('input:[name="font"]').change(function() {
+		if($('input[name="font"]').is(":checked")){
 			var msg = $(":checked").val();
 			if(msg == "mini"){
-				$("#comment").css("font-size", "10px");
+				$(".comment").css("font-size", "10px");
 			} else(msg == "small"){
-				$("#comment").css("font-size", "15px");
+				$(".comment").css("font-size", "15px");
 			} else(msg == "middle"){
-				$("#comment").css("font-size", "20px");
+				$(".comment").css("font-size", "20px");
 			} else(msg == "large"){
-				$("#comment").css("font-size", "25px");
+				$(".comment").css("font-size", "25px");
 			} else(msg == "big"){
-				$("#comment").css("font-size", "30px");
+				$(".comment").css("font-size", "30px");
 			}
 		}
 	});
@@ -122,7 +122,7 @@ body {
 								style="line-height: 0.1px; padding-left: 10px;">채팅 사이즈</h3>
 						</div>
 						<div class="radio">
-							<p id="comment"
+							<p class="comment"
 								style="margin: 0 auto 8px auto; padding-left: 10px;">메시지입니다.</p>
 						</div>
 						<div class="radio">
